@@ -16,7 +16,7 @@ const schema = mongoose.Schema({
     },
     role: {
       type: String,
-      default: "user",
+      default: "Admin",
     },
     playlist: [
       {
